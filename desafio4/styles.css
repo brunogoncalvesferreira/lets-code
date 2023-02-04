@@ -1,0 +1,125 @@
+:root {
+  --bg: #1a1924;
+  --white: #e1e1e6;
+  --status: #00b37e;
+  --purple: #633bbc;
+  --green: #07847e;
+  --input: #282843;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  max-width: 880px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: var(--bg);
+  color: var(--white);
+}
+
+header {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .avatar {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+header .profile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+header .profile span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--status);
+}
+
+header button {
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+}
+
+header button i {
+  font-size: 1.25rem;
+}
+
+main strong {
+  display: block;
+  text-align: center;
+  margin-top: 1.625rem;
+  font-size: 0.75rem;
+}
+
+main div.messeges-purple,
+main div.messeges-green {
+  margin-top: 1.875rem;
+}
+
+main div small {
+  display: block;
+  font-size: 0.75rem;
+}
+
+main div.messeges-purple div {
+  background-color: var(--purple);
+  width: fit-content;
+  padding: 0.75rem;
+  border-radius: 0 8px 8px 8px;
+  margin-top: 0.625rem;
+}
+
+main div.messeges-green div {
+  display: inline-block;
+  background-color: var(--green);
+  width: fit-content;
+  padding: 0.75rem;
+  border-radius: 8px 8px 0px 8px;
+  margin-top: 0.625rem;
+}
+
+main div.messeges-green {
+  width: 100%;
+  text-align: right;
+}
+
+footer {
+  margin-top: 1.875rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+footer input {
+  width: 100%;
+  height: 3.25rem;
+  background-color: var(--input);
+  border-radius: 999px;
+  border: 0;
+  outline: none;
+  padding: 14px 24px 14px 24px;
+  color: var(--white);
+}
+
+footer i {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 1.5rem;
+}

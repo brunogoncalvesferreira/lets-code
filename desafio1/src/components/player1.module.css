@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  background: var(--card--);
+  padding: 38px;
+  border-radius: 9px;
+}
+
+.container img {
+  width: 190px;
+}
+
+.container .infoMusic h1 {
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+  color: var(--text--);
+}
+
+.container .infoMusic h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text--);
+  margin-top: 0.5rem;
+  line-height: 100%;
+  opacity: 0.67;
+}
+
+.container .controlMusic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.1875rem;
+}
+
+.container .controlMusic button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container .controlMusic img {
+  width: 28px;
+
+  transition: 300ms;
+}
+
+.container .controlMusic img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container .processMusic {
+  width: 100%;
+  height: 6px;
+  border-radius: 10px;
+  background-color: var(--progress--);
+  position: relative;
+  margin-top: 1.75rem;
+}
+
+.container .processMusic .line {
+  height: 6px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: var(--progress2--);
+  position: absolute;
+  z-index: 99;
+}
+
+.container .timeMusic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.container .timeMusic small {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--numbers--);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

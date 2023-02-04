@@ -1,0 +1,23 @@
+:root {
+  --bg--: #0f0d13;
+  --card--: #2a2141;
+  --text--: #e1e1e6;
+  --numbers--: #c4c4cc;
+  --progress--: #d9d9d9;
+  --progress2--: #5f586f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+  color: var(--text--);
+}
+
+body {
+  background: var(--bg--);
+}

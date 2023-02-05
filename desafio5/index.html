@@ -14,44 +14,57 @@
   </head>
   <body>
     <div id="app">
-      <p class="operation">2 + 2</p>
+      <p class="operation"></p>
       <div class="container-result">
         <i class="ph-equals"></i>
-        <p class="result">4</p>
+        <p class="result"></p>
       </div>
 
       <div class="keyboard">
         <div class="buttons">
-          <button class="black">CE</button>
-          <button class="black">C</button>
-          <button class="black">%</button>
-          <button class="purple"><i class="ph-divide"></i></button>
+          <button onclick="handleDeleteLast()" class="black">CE</button>
+          <button onclick="handleClear()" class="black">C</button>
+          <button onclick="handlePercentage()" class="black">%</button>
+          <button onclick="handleInsert('/')" class="purple">
+            <i class="ph-divide"></i>
+          </button>
         </div>
         <div class="buttons">
-          <button class="black">7</button>
-          <button class="black">8</button>
-          <button class="black">9</button>
-          <button class="purple"><i class="ph-x"></i></button>
+          <button onclick="handleInsert('7')" class="black">7</button>
+          <button onclick="handleInsert('8')" class="black">8</button>
+          <button onclick="handleInsert('9')" class="black">9</button>
+          <button onclick="handleInsert('*')" class="purple">
+            <i class="ph-x"></i>
+          </button>
         </div>
         <div class="buttons">
-          <button class="black">4</button>
-          <button class="black">5</button>
-          <button class="black">6</button>
-          <button class="purple"><i class="ph-minus"></i></button>
+          <button onclick="handleInsert('4')" class="black">4</button>
+          <button onclick="handleInsert('5')" class="black">5</button>
+          <button onclick="handleInsert('6')" class="black">6</button>
+          <button onclick="handleInsert('-')" class="purple">
+            <i class="ph-minus"></i>
+          </button>
         </div>
         <div class="buttons">
-          <button class="black">3</button>
-          <button class="black">2</button>
-          <button class="black">1</button>
-          <button class="purple"><i class="ph-plus"></i></button>
+          <button onclick="handleInsert('3')" class="black">3</button>
+          <button onclick="handleInsert('2')" class="black">2</button>
+          <button onclick="handleInsert('1')" class="black">1</button>
+          <button onclick="handleInsert('+')" class="purple">
+            <i class="ph-plus"></i>
+          </button>
         </div>
         <div class="buttons">
-          <button class="black"><i class="ph-plus-minus"></i></button>
-          <button class="black">0</button>
-          <button class="black">,</button>
-          <button class="purple"><i class="ph-equals"></i></button>
+          <button onclick="handlePlusMinus()" class="black">
+            <i class="ph-plus-minus"></i>
+          </button>
+          <button onclick="handleInsert('0')" class="black">0</button>
+          <button onclick="handleInsert('.')" class="black">,</button>
+          <button onclick="calculate()" class="purple">
+            <i class="ph-equals"></i>
+          </button>
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

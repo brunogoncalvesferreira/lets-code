@@ -4,7 +4,8 @@ O projeto, é mais um desafio do programa da Rocketseat Bora Codar. O intuito do
 
 ## Meus projetos
 
-<p><a href="https://www.linkedin.com/posts/bruno-goncalves-ferreira_boracodar-rocketseat-desafio-activity-7018733574350626816-n4Eh?utm_source=share&utm_medium=member_desktop">Play de Musicas</a></p>
-<p><a href="https://www.linkedin.com/posts/bruno-goncalves-ferreira_boracodar-rocketseat-react-activity-7019486703555862528-WLPX?utm_source=share&utm_medium=member_desktop">Card de Produtos</a></p>
-<p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7024542973040205824/">Botões e Cursores</a></p>
-<p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7024545895845113856/">Chat</a></p>
+<p><a href="https://bora-codar-one.vercel.app/">Play de Musicas</a></p>
+<p><a href="https://bora-codar-two.vercel.app/">Card de Produtos</a></p>
+<p><a href="https://buttons-icons.vercel.app/">Botões e Cursores</a></p>
+<p><a href="https://chat-hazel-nine.vercel.app/">Chat</a></p>
+<p><a href="https://calculadora-dev.vercel.app/">Calculadora</a></p>

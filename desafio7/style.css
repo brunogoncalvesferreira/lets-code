@@ -214,3 +214,29 @@ form button:hover {
 .cards .locale i {
   color: #e45858;
 }
+
+@media (max-width: 768px) {
+  #hero {
+    height: 110.5rem;
+  }
+
+  .content-search form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .title {
+    flex-direction: column;
+  }
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}

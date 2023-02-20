@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Block</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="hero" class="relative">
+        <img
+          class="img1-absolute"
+          src="./assets/ilustra1.png"
+          alt="imagem ilustrativa do carnaval"
+        />
+        <div class="content">
+          <p>FIND YOUR BLOCK</p>
+          <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+          <div class="content-search">
+            <form>
+              <div class="search">
+                <i class="ph-magnifying-glass"></i>
+                <input type="text" placeholder="Pesquisar por nome" />
+              </div>
+
+              <div class="select-city">
+                <i class="ph-map-pin"></i>
+                <select>
+                  <option value="state">Selecione uma cidade</option>
+                  <option value="São Paulo - SP">São Paulo</option>
+                  <option value="Rio de Janeiro - RJ">Rio de Janeiro</option>
+                  <option value="Florianópolis - SC">Florianópolis</option>
+                  <option value="Curitiba - PR">Curitiba</option>
+                  <option value="Salvador - BA">Salvador</option>
+                  <option value="Porto Alegre - RS">Porto Alegre</option>
+                </select>
+              </div>
+
+              <button type="submit">Buscar Agora</button>
+            </form>
+          </div>
+        </div>
+        <img
+          class="img2-absolute"
+          src="./assets/ilustra2.png"
+          alt="imagem ilustrativa do carnaval"
+        />
+      </div>
+
+      <div class="title max-width">
+        <h2>Blocos Recomendados</h2>
+        <div class="button-select">
+          <button id="btn-select">Lista</button>
+          <button id="btn-transparent">Mapa</button>
+        </div>
+      </div>
+      <div class="grid-cards max-width"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

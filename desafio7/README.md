@@ -27,7 +27,7 @@ O projeto, é mais um desafio do programa da Rocketseat Bora Codar. O intuito do
 
 # Projeto
 
-Página onde usuários conseguem buscar blocos de carnaval em susa cidades.
+Página onde usuários conseguem buscar blocos de carnaval em sua cidade.
 
 <br>
 

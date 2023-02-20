@@ -11,12 +11,14 @@
 }
 
 .img1-absolute {
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .img2-absolute {
+  width: 100%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -81,10 +83,12 @@ form button:hover {
 
 #hero {
   background-color: #f4f4ff;
+
   height: 53.2rem;
 
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .content p {
@@ -217,7 +221,13 @@ form button:hover {
 
 @media (max-width: 768px) {
   #hero {
-    height: 110.5rem;
+    height: 100rem;
+  }
+
+  .content h1 {
+    margin-top: 15rem;
+    position: relative;
+    z-index: 1;
   }
 
   .content-search form {

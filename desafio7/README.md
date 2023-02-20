@@ -21,7 +21,7 @@ O projeto, é mais um desafio do programa da Rocketseat Bora Codar. O intuito do
 
 # Preview
 
-<a href="">Projeto online</a>
+<a href="https://find-blocks-carnaval.vercel.app/">Projeto online</a>
 
 <br>
 
